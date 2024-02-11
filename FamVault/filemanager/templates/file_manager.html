@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Manager</title>
+    <link rel="stylesheet" href="{% static 'css/file_manager.css' %}">
+</head>
+<body>
+    <div id="file-manager">
+        <ul id="folder-list">
+            {% for folder in folders %}
+                <li class="folder">
+                    <span class="folder-name">{{ folder.name }}</span>
+                    <ul class="file-list">
+                        {% for file in folder.files %}
+                            <li class="file">{{ file }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script src="{% static 'js/file_manager.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/2023_Tax_Filing/01_Personal_Info/01_SSNs/Doc1.pdf
+/2023_Tax_Filing/01_Personal_Info/02_DOBs/Doc2.pdf
+/2023_Tax_Filing/02_Income_Documents/01_W-2/Doc3.pdf
+/2023_Tax_Filing/02_Income_Documents/02a_1099-INT/Doc4.pdf
+/2023_Tax_Filing/02_Income_Documents/02b_1099-DIV/Doc5.pdf
+/2023_Tax_Filing/02_Income_Documents/02c_1099-B/Doc6.pdf
+/2023_Tax_Filing/02_Income_Documents/03_K-1/Doc8.pdf
+/2023_Tax_Filing/03_Deductions/05_Charitable_Donations/Doc10.pdf
+/2023_Tax_Filing/04_Credits/02_Retirement_Contributions/Doc11.pdf
+/2023_Tax_Filing/05_Banking_Investments/01_Savings_Interest_1099-INT/Doc12.pdf

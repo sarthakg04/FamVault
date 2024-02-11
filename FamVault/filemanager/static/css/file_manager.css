@@ -1,0 +1,18 @@
+/* file_manager.css */
+#file-manager {
+    padding-left: 20px;
+}
+
+.folder {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.folder-name {
+    cursor: pointer;
+}
+
+.file {
+    list-style-type: none;
+    margin-left: 20px;
+}

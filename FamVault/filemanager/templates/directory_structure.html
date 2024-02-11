@@ -1,0 +1,21 @@
+<!-- directory_structure.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Structure</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        {% for path in paths %}
+            <li>{{ path }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
